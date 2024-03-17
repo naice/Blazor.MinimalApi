@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Jens Marchewka</Authors>
+        <PackageIcon>minimal_api.svg</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blazor.MinimalApi.Abstractions\Blazor.MinimalApi.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\res\minimal_api.svg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>minimal_api.svg</Link>
+      </None>
+    </ItemGroup>
+
+</Project>

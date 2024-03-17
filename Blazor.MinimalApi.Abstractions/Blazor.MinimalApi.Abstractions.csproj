@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Jens Marchewka</Authors>
+        <Description>Abstractions for Blazor.MinimalApi.Client and Blazor.MinimalApi.Server.</Description>
+        <PackageIcon>minimal_api.svg</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\res\minimal_api.svg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>minimal_api.svg</Link>
+      </None>
+    </ItemGroup>
+
+</Project>

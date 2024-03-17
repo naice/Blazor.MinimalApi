@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>Blazor.MinimalApi.Client</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" PrivateAssets="all"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Blazor.MinimalApi.Abstractions\Blazor.MinimalApi.Abstractions.csproj" />
+        <ProjectReference Include="..\Blazor.MinimalApi.Client\Blazor.MinimalApi.Client.csproj" />
+        <ProjectReference Include="..\Blazor.MinimalApi.SampleModel\Blazor.MinimalApi.SampleModel.csproj" />
+    </ItemGroup>
+
+</Project>

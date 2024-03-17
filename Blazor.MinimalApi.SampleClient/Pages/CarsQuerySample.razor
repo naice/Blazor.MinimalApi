@@ -1,0 +1,31 @@
+﻿@page "/carsquerysample"
+@using Blazor.MinimalApi.Model
+@inject MinimalHttpClient<Car[]> CarClient
+
+<PageTitle>MinimalHttpClient&lt;Car[]&gt; Query Sample</PageTitle>
+
+<input type="number" @bind="_countCars" />
+<input type="button" value="Load Cars" @onclick="LoadCars"/>   
+
+<h1>Cars</h1>
+
+@foreach (var car in _cars.OrderBy(c => c.Manufacturer))
+{
+    <div>
+        <h4> @car.Manufacturer - @car.Model </h4>
+        <strong>@car.Type</strong> - @car.Fuel<br/>
+        <i>@car.Vin</i><br/>
+        <hr/>
+    </div>
+}
+
+@code{
+    private int _countCars = 100;
+    private Car[] _cars = Array.Empty<Car>();
+
+    private async Task LoadCars()
+    {
+        _cars = await CarClient.Get(query: new QueryParameters().With("count", _countCars)) ?? Array.Empty<Car>();
+    }
+
+}
