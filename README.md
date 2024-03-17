@@ -5,6 +5,6 @@
 # Blazor.MinimalApi
 
 ![x](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Coverage Status](https://coveralls.io/repos/github/naice/Jens.AspNetCore.BackgroundJobs/badge.svg?branch=master)](https://coveralls.io/github/naice/Jens.AspNetCore.BackgroundJobs?branch=master)
+[![Release](https://github.com/naice/Blazor.MinimalApi/actions/workflows/versionize.yml/badge.svg?branch=master)](https://github.com/naice/Blazor.MinimalApi/actions/workflows/versionize.yml)
 
 TBD ;)
