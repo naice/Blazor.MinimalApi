@@ -5,6 +5,6 @@
 # Blazor.MinimalApi
 
 ![x](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Release](https://github.com/naice/Blazor.MinimalApi/actions/workflows/versionize.yml/badge.svg?branch=master)](https://github.com/naice/Blazor.MinimalApi/actions/workflows/versionize.yml)
+[![Release](https://github.com/naice/Blazor.MinimalApi/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/naice/Blazor.MinimalApi/actions/workflows/release.yml)
 
 TBD ;)

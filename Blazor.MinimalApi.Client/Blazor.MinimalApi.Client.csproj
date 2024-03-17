@@ -7,7 +7,7 @@
         <Nullable>enable</Nullable>
         <PackageIcon>minimal_api.png</PackageIcon>
         <Authors>Jens Marchewka (im.naice@googlemail.com)</Authors>
-        <Copyright>Jens Marchewka (im.naice@googlemail.com) 2023</Copyright>
+        <Copyright>Jens Marchewka (im.naice@googlemail.com) 2024</Copyright>
         <PackageProjectUrl>https://github.com/naice/Blazor.MinimalApi</PackageProjectUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryType>GIT</RepositoryType>
