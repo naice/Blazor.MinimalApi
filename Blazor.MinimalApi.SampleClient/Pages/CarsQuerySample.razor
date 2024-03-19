@@ -27,5 +27,4 @@
     {
         _cars = await CarClient.Get(query: new QueryParameters().With("count", _countCars)) ?? Array.Empty<Car>();
     }
-
 }

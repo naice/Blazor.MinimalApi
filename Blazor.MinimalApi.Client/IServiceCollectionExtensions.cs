@@ -5,7 +5,7 @@ namespace Blazor.MinimalApi.Client;
 
 public static class IServiceCollectionExtensions
 {
-    public static void AddMinimapApiClient(this IServiceCollection services)
+    public static void AddMinimalApiClient(this IServiceCollection services)
     {
         services.AddSingleton<IMinimalApiRouteProvider, MinimalApiDefaultRouteProvider>();
         services.AddScoped(typeof(MinimalHttpClient<>));
